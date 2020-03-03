@@ -1,5 +1,5 @@
 {
-    "name": "fooman/phpstan-magento2-magic-methods",
+    "name": "aonach/phpstan-magento2-magic-methods",
     "type": "phpstan-extension",
     "description": "PhpStan extension to support Magento 2's use of magic methods",
     "license": ["MIT"],
