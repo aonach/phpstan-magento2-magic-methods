@@ -1,12 +1,9 @@
-PHPStan Extension - Magento 2 Magic Methods
+PHPStan Extension - Magento 2
 ===================
-
-The extension bootstraps the same autoloader that is run when using Magento 2's unit tests. By default it will place
-the generated class under var/. Change the environment variable `TESTS_TEMP_DIR` to change the folder.
 
 ### Installation Instructions via Composer
 
-    composer require --dev fooman/phpstan-magento2-magic-methods
+    composer require --dev aonach/magento2-phpstan
  
  
 ### Note on required use of `phpstan/extension-installer`
@@ -23,7 +20,7 @@ to your project's composer.json file. Then manually include extension.neon in yo
 
 ```
 includes:
-    - vendor/fooman/phpstan-magento2-magic-methods/extension.neon
+    - vendor/aonach/magento2-phpstan/extension.neon
 ```
 
 Or as an alternative approach you can check out https://github.com/bitExpert/phpstan-magento
